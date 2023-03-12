@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+table th,
+table td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+table th {
+    background-color: rgb(87, 87, 87);
+}
+table td {
+    background-color: rgb(161, 162, 162);
+}

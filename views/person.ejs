@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Person</title>
+    <link href=assets/style.css type=text/css rel=stylesheet />
+</head>
+<body>
+    <% if(ID%2==0){%>
+        <h1>El número <%=ID %> es par</h1>
+    <% }else {%>
+        <h1>El número <%=ID %> es impar</h1>
+    
+    <%}%>
+    
+    <ul>
+    <% for (let i = 1; i <= ID; i++) { %>
+        <li><%= i %></li>
+    <% } %>
+    </ul>
+</body>
+</html>
